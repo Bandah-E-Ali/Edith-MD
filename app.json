@@ -1,7 +1,7 @@
 {
-  "name": "EDITH-MD",
+  "name": "gaiya",
   "description": "Javascript WhatsApp bot powered by Bandaheali",
-  "logo": "https://i.ibb.co/8L2PmKPC/edith-md.jpg",
+  "logo": "https://raw.githubusercontent.com/gayanmadura/Bot-photo-/refs/heads/main/FB_IMG_1636824908016.jpg",
   "keywords": ["EDITH-MD", "WhatsApp Bot", "Bandaheali"],
   "success_url": "/",
   "stack": "container",
