@@ -17,7 +17,7 @@
 
 const axios = require('axios');
 const vm = require('vm');
-const config = require('./config.js');
+//const config = require('./config.js');
 
 (async () => {
   try {
