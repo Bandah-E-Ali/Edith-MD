@@ -97,7 +97,7 @@ jobs:
         node-version: [20.x]
 
     steps:
-    - name: Checkout repository
+    - name: 𓄂⍣⃝𝗛.𝗕𝗢𝗬≛⃝🥷💥
       uses: actions/checkout@v3
 
     - name: Set up Node.js
