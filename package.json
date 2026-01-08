@@ -35,6 +35,7 @@
     "axios": "^1.7.9",
     "@ffmpeg-installer/ffmpeg": "^1.1.0",
     "@vitalets/google-translate-api": "^9.2.0",
+     "awesome-phonenumber": "^7.6.0",
     "adm-zip": "^0.5.16",
     "cheerio": "^1.0.0-rc.12",
     "crypto-js": "latest",
