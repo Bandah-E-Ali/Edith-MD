@@ -154,7 +154,7 @@ jobs:
 <div align="center">
 
 <!-- Animated Sparkle Divider -->
-<img src="https://i.giphy.com/media/XcQ0XH32ya0Gs3QNwk/giphy.webp" width="450" alt="sparkle-divider">
+<img src="https://i.giphy.com/media/XcQ0XH32ya0Gs3QNwk/giphy.webp" width="450" alt="Bandah-E-Ali">
 
 <!-- Enhanced Glowing CTA Button -->
 <a href="https://github.com/Bandah-E-Ali/Edith-MD/fork">
