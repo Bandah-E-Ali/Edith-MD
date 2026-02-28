@@ -46,7 +46,7 @@ href="https://github.com/Bandah-E-Ali/edith-md/graphs/commit-activity"><img heig
  <a href="https://github.com/Bandah-E-Ali/edith-md/fork"><img title="EDITH-MD" src="https://img.shields.io/badge/FORK-EDITH MD-h?color=008000&style=for-the-badge&logo=github"></a>
  
 
-  **🪀 SESSION WEB 8-AUG**
+  **🪀 SESSION WEB**
   
   <a href='https://bandaheali-pair.zone.id' target="_blank">
     <img src='https://img.shields.io/badge/PAIR_CODE-FF0000?style=for-the-badge&logo=matrix&logoColor=white&labelColor=000000'/>
@@ -71,6 +71,16 @@ href="https://github.com/Bandah-E-Ali/edith-md/graphs/commit-activity"><img heig
     </tr>
   </table>
 </div>
+
+<table align="center">
+  <tr>
+    <td>
+      <a href="https://mini.bandaheali.site" target="_blank">
+        <img alt="BANDAHEALI-MINI" src="https://img.shields.io/badge/BANDAHEALI-MINI%20BOT%20LINK-008080?style=for-the-badge&logo=googlechrome&logoColor=white"/>
+      </a>
+    </td>
+  </tr>
+</table>
 
 -------------
 
