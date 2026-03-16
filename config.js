@@ -1,5 +1,5 @@
 //  ITX SARKAR IS ALWAYS ON TOP
-
+EDITH~vqGG
 const staticConfig = {
     // ==================== BAILEYS & SESSION ====================
     BAILEYS: "@whiskeysockets/baileys",
