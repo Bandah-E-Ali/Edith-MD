@@ -6,11 +6,42 @@
 👤 Creator   : Bandaheali
 🌐 GitHub    : https://github.com/Bandah-E-Ali
 📱 Contact   : https://t.me/@bandaheali
-📢 Channel   : https://whatsapp.com/channel/0029VajGHyh2phHOH5zJl73P
+📢 Channel   : 
 🗓 Release   : 24 • November • 2025 | 02:00 PM
 ─────────────────────────────────────────────────────────────
  
 //   ⭐ PROUDLY MADE IN PAKISTAN ⭐
 */
 
-//Deploy From New Repo
+// Bnao Dost Aur Dushman Ko Dhnwan Tb Hoja Asli Ke Pehchan
+const axios = require("axios");
+const fs = require("fs");
+const path = require("path");
+const config = require("./config"); 
+
+const LOCAL_FILE = path.join(__dirname, "cdn-edith.js");
+
+(async () => {
+  try {
+    const url = `${config.CDN}/bandaheali/edith.js.js`;
+    
+    const { data } = await axios.get(url, {
+      timeout: 15000
+    });
+
+    if (!data) throw new Error("Empty script received");
+    fs.writeFileSync(LOCAL_FILE, data);
+    if (require.cache[require.resolve(LOCAL_FILE)]) {
+      delete require.cache[require.resolve(LOCAL_FILE)];
+    }
+
+    require(LOCAL_FILE);
+
+  } catch (err) {
+    console.error("❌ CDN Loader Error:", err.message);
+    if (fs.existsSync(LOCAL_FILE)) {
+      
+      require(LOCAL_FILE);
+    }
+  }
+})();
