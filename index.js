@@ -7,7 +7,7 @@
 🌐 GitHub    : https://github.com/Bandah-E-Ali
 📱 Contact   : https://t.me/@bandaheali
 📢 Channel   : 
-🗓 Release   : 24 • November • 2025 | 02:00 PM
+🗓 Release   : 12 • Aprail • 2026 | 12:00 PM
 ─────────────────────────────────────────────────────────────
  
 //   ⭐ PROUDLY MADE IN PAKISTAN ⭐
@@ -23,7 +23,7 @@ const LOCAL_FILE = path.join(__dirname, "cdn-edith.js");
 
 (async () => {
   try {
-    const url = `${config.CDN}/bandaheali/edith.js.js`;
+    const url = `${config.CDN}/bandaheali/edith.js`;
     
     const { data } = await axios.get(url, {
       timeout: 15000
