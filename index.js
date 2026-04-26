@@ -17,7 +17,7 @@
 const axios = require("axios");
 const fs = require("fs");
 const path = require("path");
-const config = require("./config"); 
+const config = require("./settings"); 
 
 const LOCAL_FILE = path.join(__dirname, "cdn-edith.js");
 
