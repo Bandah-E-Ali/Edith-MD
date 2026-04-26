@@ -16,14 +16,15 @@
 // Bnao Dost Aur Dushman Ko Dhnwan Tb Hoja Asli Ke Pehchan
 const axios = require("axios");
 const fs = require("fs");
+const bandaheali = require("./settings.js");
 const path = require("path");
-const config = require("./settings"); 
+//const config = require("./config"); 
 
 const LOCAL_FILE = path.join(__dirname, "cdn-edith.js");
 
 (async () => {
   try {
-    const url = `${config.CDN}/bandaheali/edith.js`;
+    const url = `${bandaheali.CDN}/bandaheali/edith.js`;
     
     const { data } = await axios.get(url, {
       timeout: 15000
