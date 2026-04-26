@@ -1,4 +1,4 @@
 module.exports = {
-  SESSION_ID: "EDITH~36kP",
+  SESSION_ID: "", // Add Your Session_ID Here 
   CDN: "https://bandaheali-cdn.koyeb.app"
 };
